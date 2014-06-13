@@ -1,0 +1,37 @@
+﻿table {
+    
+    border-spacing:0;
+    box-shadow:10px 10px 15px;
+    border:2px solid grey;
+    border-radius:15px;
+    width:300px;
+    height:450px;
+    background-color:ButtonHighlight;
+}
+    table tr td {
+        padding:1px;
+        border:1px solid gray;
+    }
+td {
+    background-color:ButtonFace;
+    text-align:center;
+}
+input {
+    font-size:x-large;
+}
+.text {
+    border-radius:5px 5px 5px 5px;
+    margin-top:5px;
+}
+td input {
+    background-color: #dcdcdc;
+    border-radius:12px;
+    height:45px;
+    width:45px;
+}
+.D {
+    border-bottom-right-radius:13px;
+}
+.E {
+    border-bottom-left-radius:13px;
+}

@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework(5)</title>
+    <style>
+        table {
+            padding-left:4px;
+            padding-right:6px;
+            border: 1px solid #B1ABDF;
+            border-collapse: collapse;
+            
+        }
+            table tr td {
+                border: 1px solid #B1ABDF;
+                height: 15px;
+                padding-left: 4px;
+                padding-right: 10px;
+                font-size: 10pt;
+            }
+        thead {
+            text-align: left;
+            background-color: #E7E9EB;
+            font-size: 10pt;
+        }
+        .color {
+            background-color: #E7E9EB;
+        }
+        tfoot {
+            background-color: #E7E9EB;
+            height:30px;
+            vertical-align:middle;
+        }
+            tfoot tr td {
+                border: none;
+            }
+        input[type="image"]{
+            width:22px;
+            vertical-align:middle;   
+        }
+        input[type="text"] {
+            border: 1px solid #B1ABDF;
+            vertical-align:middle;
+        }
+        input[type="checkbox"]{
+            vertical-align:middle;
+        }
+        div {
+            text-align:right;
+        }
+        tfoot tr td input,a{
+            padding:2px;
+        }
+        tfoot tr td a{
+            text-decoration:none;
+            vertical-align:middle;
+        }
+        span{
+            vertical-align:bottom;
+        }
+        .red {
+            border:1px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="6">Drag a column header and drop it here to group by that column</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2" >
+                    <input type="image" src="Pictures/1st.jpg" alt="Fitst page"/>
+                    <input type="image" src="Pictures/back.jpg" alt="Previous page"/>
+                    <a href="" class="red">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                    <a href="">6</a>
+                    <a href="">7</a>
+                    <a href="">8</a>
+                    <a href="">9</a>
+                    <a href="">10</a>
+                    <span>...</span>
+                    <input type="image" src="Pictures/next.jpg" alt="Next page"/>
+                    <input type="image" src="Pictures/last.jpg" alt="Last page"/>
+                </td>
+                <td>
+                    Page size:
+                    <select>
+                        <option value="5">5</option>
+                        <option value="10" selected="selected">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                    </select>
+                </td>
+                <td colspan=" 3">
+                    <div>
+                        335104 items in 33511 pages
+                    </div>
+                </td> 
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="color">
+                <td>
+                    Product ID
+                </td>
+                <td>
+                    Product name
+                </td>
+                <td>
+                    Unit price
+                </td>
+                <td>
+                    Quantity per unit
+                </td>
+                <td>
+                    Units in stock
+                </td>
+                <td>
+                    Discontinued
+                </td>
+            </tr>
+            <tr class="color">
+                <td>
+                    <input type="text" size="2"/>
+                </td>
+                <td>
+                    <input type="text" />
+                </td>
+                <td>
+                    <input type="text" size="6" />
+                    <input type="image" src="Pictures/button.jpg" alt="filter" class="img"/>
+                </td>
+                <td>
+                    <input type="text" size="10"/>
+                </td>
+                <td>
+                    <input type="text" size="9" />
+                    <input type="image" src="Pictures/button.jpg" alt="filter" class="img" />
+                </td>
+                <td>
+                    <input type="checkbox" />
+                    <input type="image" src="Pictures/button.jpg" alt="filter" class="img"/>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$18.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chang</td>
+                <td>$19.00</td>
+                <td>24- 12oz bottles</td>
+                <td>17</td>
+                <td>
+                    <input type="checkbox" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Aniseed Syrop</td>
+                <td>$10.00</td>
+                <td>12 - 500ml bottles</td>
+                <td>13</td>
+                <td>
+                    <input type="checkbox" disabled="disabled"/>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Chef Anton's Cajun Seasoning</td>
+                <td>$22.00</td>
+                <td>48 - 6oz jars</td>
+                <td>53</td>
+                <td>
+                    <input type="checkbox" checked="checked" disabled="disabled"/>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Chef Anton's Gumbo mix</td>
+                <td>$21.35</td>
+                <td>36 boxes</td>
+                <td>0</td>
+                <td>
+                    <input type="checkbox" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Grandma's Boysenberry spread</td>
+                <td>$25.00</td>
+                <td>12 - 8oz jars</td>
+                <td>120</td>
+                <td>
+                    <input type="checkbox" disabled="disabled"/>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Uncle BoB's Organic Dried Pears</td>
+                <td>$30.00</td>
+                <td>12 - 1lb pkgs.</td>
+                <td>15</td>
+                <td>
+                    <input type="checkbox" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Northwoods Cranberry Sauce</td>
+                <td>$40.00</td>
+                <td>12 - 12 oz jars</td>
+                <td>6</td>
+                <td>
+                    <input type="checkbox" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Mishi Kobe Niku</td>
+                <td>$97.00</td>
+                <td>18 - 500g pkgs.</td>
+                <td>29</td>
+                <td>
+                    <input type="checkbox" disabled="disabled" checked="checked"/>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ikura</td>
+                <td>$31.00</td>
+                <td>12 - 200ml jars</td>
+                <td>31</td>
+                <td>
+                    <input type="checkbox" disabled="disabled"/>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

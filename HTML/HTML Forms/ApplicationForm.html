@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Application</title>
+    <style>
+        #CQ {
+            resize: none;
+            width: 300px;
+            height: 150px;
+            border: 1px solid #8b8181;
+            vertical-align:middle;
+        }
+
+        #Ad {
+            resize: none;
+            width: 300px;
+            border: 1px solid #8b8181;
+            vertical-align:middle;
+        }
+
+        .AL {
+            text-align: right;
+        }
+
+        table tr td {
+            border: 1px solid black;
+            border-color: gray;
+        }
+
+        body form table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-color: gray;
+        }
+
+        thead, tfoot {
+            background-color: #8ff3f0;
+        }
+    </style>
+</head>
+<body>
+    <form name="Appform">
+        <table>
+            <thead>
+            <th colspan="4"><u>Application Form</u></th>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td class="AL">
+                        <input type="submit" value="Submit"/>
+                    </td>
+                    <td colspan="3">
+                        <input type="reset" value="Reset" />
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td class="AL"><label for="LN">Last name</label></td>
+                    <td colspan="3">
+                        <input type="text" id="LN" size="45"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="AL"><label for="FN">First name</label></td>
+                    <td colspan="3">
+                        <input type="text" id="FN" size="45"/>
+                    </td>
+                <tr>
+                    <td class="AL"><label for="Ad">Adress</label></td>
+                    <td colspan="3">
+                        <textarea name="txtarea" id="Ad" maxlength="717"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="AL"><label for="City">City</label></td>
+                    <td>
+                        <input type="text" id="City" />
+                    </td>
+                    <td><label for="State">State</label></td>
+                    <td><input type="text" size="12" id="State" /></td>
+                    
+                </tr>
+                <tr>
+                    <td class="AL"><label for="ZPC">Zip/Postal Code</label></td>
+                    <td colspan="3">
+                        <input type="text" id="ZPC" size="45" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="AL"><label for="CTRY">Country</label></td>
+                    <td colspan="3">
+                        <select name="Country" id="CTRY">
+                            <option selected="selected" value="BG">Bulgaria</option>
+                            <option value="Armenia">Armenia</option>
+                            <option value="AU">Australia</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Italy">Italy</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="AL"><label for="phone">Phone(Country code,<br />Area code, Number)</label></td>
+                    <td colspan="3">
+                        <input type="text" id="phone" pattern="\+[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}" placeholder="+359-000-000-000" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="AL"><label for="mail">E-mail</label></td>
+                    <td colspan="3">
+                        <input type="email" id="mail" pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}" placeholder="Example@email.com" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="AL">
+                        <label for="Month">Birth Date</label>
+                    </td>
+                    <td colspan="3">
+                        <label for="Month">Month</label><input type="text" id="Month" size="2" maxlength="2" pattern="[0-9]{2}" placeholder="MM" />
+                        <label for="Day">Day</label><input type="text" id="Day" size="2" maxlength="2" pattern="[0-9]{2}" placeholder="DD" />
+                        <label for="Year">Year</label><input type="text" id="Year" size="4" maxlength="4" pattern="[0-9]{4}" placeholder="YYYY" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="AL"><label for="Gender">Gender</label></td>
+                    <td colspan="3">
+                        <select name="Gender" id="Gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="AL"><label">Starting Date</label></td>
+                    <td colspan="3">
+                        <input type="radio" name="SD" value="Spring 2013" id="Spring" />
+                        <label for="Spring">Spring 2013</label>
+                        <input type="radio" name="SD" value="Summer 2013" id="Summer" />
+                        <label for="Summer">Summer 2013</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="AL"><label for="CQ">Comments/Questions</label></td>
+                    <td colspan="3">
+                        <textarea name="C/Q" id="CQ"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

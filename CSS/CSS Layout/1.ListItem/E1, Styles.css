@@ -1,0 +1,20 @@
+﻿div.nav {
+    float: left;
+}
+a {
+    text-decoration:none;
+    color:black;
+}
+.main-navlist, .sub-navlist {
+    list-style:none;
+}
+    .sub-navlist li a {
+        color:#bbb2b2;
+        display:none;
+    }
+    .main-navlist li:hover ul a {
+        display:block;
+    }
+a:hover {
+    text-decoration:underline;
+}

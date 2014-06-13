@@ -1,0 +1,85 @@
+﻿* {
+    padding:0;
+    margin:0;
+}
+.container {
+    margin-left:10px;
+    margin-top:10px;
+    width:550px;
+    height:280px;
+    float:left;
+    background-color: #404040;
+    border: 3px solid #806850;
+    border-radius:10px;
+}
+img {
+    width:50px;
+    height:40px;
+    float:left;
+    opacity:0.9;
+}
+.ml {
+    display:inline-block;
+    margin-top:7px;
+}
+input[type=text] {
+    width:120px;
+    height:18px;
+    margin-right:8px;
+    margin-left:8px;
+    padding-left:4px;
+
+}
+input[type=email] {
+    width:120px;
+    height:18px;
+    margin-right:8px;
+    margin-left:8px;
+    padding-left:4px;
+
+}
+input[type=submit] {
+    width:50px;
+    height:20px;
+    border:1px solid #fff;
+    border-radius:7px;
+    background: rgba(229, 110, 110, .9);
+    box-shadow: inset 0px -15px 5px #EC0B0F;
+    color: #fff;
+}
+.first {
+    width:534px;
+    float:left;
+    padding:8px;
+    background:linear-gradient(#3B3B3B 85%, #272727 100%);
+    background:-o-linear-gradient(#3B3B3B 85%, #272727 100%);
+    background:-moz-linear-gradient(#3B3B3B 85%, #272727 100%);
+    background:-webkit-linear-gradient(#3B3B3B 85%, #272727 100%);
+}
+.second {
+    float:left;
+}
+h1 {
+    color:yellow;
+    padding:5px;
+    padding-bottom:15px;
+}
+p {
+    text-align:justify;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:5px;
+    color: #9D9D9D;
+    font-family:Arial;
+    font-size:11pt;
+}
+label {
+    color:white;
+    font-size:14pt;
+    font-weight:bold;
+}
+span {
+    font-weight:bold;
+    color:white;
+}
+

@@ -1,0 +1,39 @@
+﻿* {
+    padding:2px;
+    margin:0;
+}
+.va {
+    vertical-align:sub;
+}
+span {
+    color: #3BD83B;
+    font-size: 57px;
+    line-height: 1px;
+    vertical-align:middle;
+}
+#style {
+    color:white;
+    font-style:italic;
+}
+    #style:after {
+        content:":";
+    }
+body {
+    background-color:gray;
+}
+h2 {
+    color:#bdb8b8;
+}
+.red {
+    color:red;
+}
+.yellow {
+    color:#f8f8a2;
+    text-decoration:none;
+}
+.lgray {
+    color:#bdb8b8;
+}
+.orange {
+    color:orange;
+}

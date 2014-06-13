@@ -1,0 +1,37 @@
+﻿* {
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+table {
+    border-collapse:collapse;
+    border:1px inset #C7C5AE;
+    width:500px;
+    height:170px;
+}
+table tr th, td {
+    border-right:1px inset #C7C5AE;
+}
+img {
+    vertical-align:middle;
+}
+input[type=checkbox] {
+    margin-left:15px;
+}
+th {
+    font-weight:normal;
+    text-align:left;
+    padding:4px;
+}
+.green {
+    background-color:#35CA39;
+    color:white;
+}
+.idk {
+    background-color:#ECECD8;
+}
+span {
+    margin-left:5px;
+}
+
+
